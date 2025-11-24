@@ -1,0 +1,29 @@
+body {
+  height: 100vh;
+  overflow: hidden;
+}
+
+.sidebar {
+  height: calc(100vh - 70px);
+  overflow-y: auto;
+  border-right: 1px solid #ddd;
+}
+
+main {
+  height: calc(100vh - 70px);
+  overflow-y: auto;
+}
+
+.accordion-button {
+  font-size: 1.1rem;
+  font-weight: 500;
+}
+
+.accordion-body a {
+  text-decoration: none;
+  color: #0d6efd;
+}
+
+.accordion-body a:hover {
+  text-decoration: underline;
+}
