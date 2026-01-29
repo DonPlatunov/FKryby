@@ -1,0 +1,89 @@
+KARP
+Zanęty, które lubi:
+zanęta karpiowa ciężka, zanęta kukurydziana, zanęta z dodatkiem pelletu, zanęta owocowa, zanęta proteinowa
+Zanęty, których nie lubi:
+zanęta drobnoziarnista zimowa, zanęta płociowa jasna
+
+AMUR
+Zanęty, które lubi:
+zanęta kukurydziana, zanęta owocowa, zanęta uniwersalna słodka
+Zanęty, których nie lubi:
+zanęta proteinowa, zanęta czosnkowa
+
+LESZCZ
+Zanęty, które lubi:
+zanęta leszczowa rzeczna, zanęta feederowa uniwersalna, zanęta czosnkowa, zanęta z gliną wiążącą
+Zanęty, których nie lubi:
+zanęta płociowa jasna, zanęta owocowa
+
+KRĄP
+Zanęty, które lubi:
+zanęta płociowa jasna, zanęta drobnoziarnista zimowa
+Zanęty, których nie lubi:
+zanęta karpiowa ciężka, zanęta proteinowa
+
+PŁOĆ
+Zanęty, które lubi:
+zanęta płociowa jasna, zanęta uniwersalna słodka, zanęta drobnoziarnista zimowa
+Zanęty, których nie lubi:
+zanęta karpiowa ciężka, zanęta z dodatkiem pelletu
+
+WZDRĘGA
+Zanęty, które lubi:
+zanęta płociowa jasna
+Zanęty, których nie lubi:
+zanęta leszczowa rzeczna, zanęta karpiowa ciężka
+
+LIN
+Zanęty, które lubi:
+zanęta linowo-karasiowa, zanęta naturalna (ziemista), zanęta proteinowa
+Zanęty, których nie lubi:
+zanęta czosnkowa, zanęta owocowa
+
+KARAŚ
+Zanęty, które lubi:
+zanęta linowo-karasiowa, zanęta uniwersalna słodka, zanęta czosnkowa
+Zanęty, których nie lubi:
+zanęta proteinowa, zanęta z dodatkiem pelletu
+
+KLEŃ
+Zanęty, które lubi:
+zanęta rzeczna ciężka (ciemna), zanęta naturalna (ziemista)
+Zanęty, których nie lubi:
+zanęta owocowa, zanęta czosnkowa
+
+JAŹ
+Zanęty, które lubi:
+zanęta rzeczna ciężka (ciemna), zanęta naturalna (ziemista)
+Zanęty, których nie lubi:
+zanęta owocowa, zanęta proteinowa
+
+OKOŃ
+Zanęty, które lubi:
+brak (nie stosuje się zanęt)
+Zanęty, których nie lubi:
+wszystkie zanęty gruntowe
+
+SANDACZ
+Zanęty, które lubi:
+brak (zanęta zbędna, ewentualnie punktowa proteinowa)
+Zanęty, których nie lubi:
+zanęta płociowa jasna, zanęta owocowa
+
+SZCZUPAK
+Zanęty, które lubi:
+brak
+Zanęty, których nie lubi:
+wszystkie zanęty
+
+BOLEŃ
+Zanęty, które lubi:
+brak
+Zanęty, których nie lubi:
+wszystkie zanęty
+
+SUM
+Zanęty, które lubi:
+zanęta proteinowa (stosowana punktowo)
+Zanęty, których nie lubi:
+zanęta płociowa jasna, zanęta drobnoziarnista zimowa
