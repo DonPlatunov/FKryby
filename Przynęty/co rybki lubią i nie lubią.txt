@@ -1,0 +1,89 @@
+KARP
+Przynęty, które lubi:
+kukuryza, pellet, boilies, ciasto wędkarskie
+Przynęty, których nie lubi:
+gumy, woblery, błystki
+
+AMUR
+Przynęty, które lubi:
+kukuryza, pellet roślinny, ciasto wędkarskie
+Przynęty, których nie lubi:
+martwe rybki, filet rybny, boilies
+
+LESZCZ
+Przynęty, które lubi:
+czerwony robak, biały robak, kukurydza, rosówka
+Przynęty, których nie lubi:
+boilies, woblery, błystki wahadłowe
+
+KRĄP
+Przynęty, które lubi:
+ochotka, biały robak
+Przynęty, których nie lubi:
+gumy, martwe rybki, woblery
+
+PŁOĆ
+Przynęty, które lubi:
+ochotka, biały robak, ciasto wędkarskie
+Przynęty, których nie lubi:
+martwe rybki, filet rybny, boilies
+
+WZDRĘGA
+Przynęty, które lubi:
+chleb, ciasto wędkarskie
+Przynęty, których nie lubi:
+martwe rybki, woblery, błystki
+
+LIN
+Przynęty, które lubi:
+czerwony robak, rosówka, kukurydza
+Przynęty, których nie lubi:
+boilies, błystki, woblery
+
+KARAŚ
+Przynęty, które lubi:
+ciasto wędkarskie, biały robak, kukurydza
+Przynęty, których nie lubi:
+martwe rybki, filet rybny, woblery
+
+KLEŃ
+Przynęty, które lubi:
+chleb, czerwony robak, błystka obrotowa
+Przynęty, których nie lubi:
+boilies, ciasto wędkarskie, pellet
+
+JAŹ
+Przynęty, które lubi:
+biały robak, kukurydza, ciasto wędkarskie
+Przynęty, których nie lubi:
+martwe rybki, filet rybny, gumy
+
+OKOŃ
+Przynęty, które lubi:
+gumy (twistery, rippery), błystka obrotowa, małe woblery
+Przynęty, których nie lubi:
+boilies, ciasto, chleb
+
+SANDACZ
+Przynęty, które lubi:
+martwa rybka, filet rybny, gumy
+Przynęty, których nie lubi:
+boilies, ciasto, chleb
+
+SZCZUPAK
+Przynęty, które lubi:
+wobler, błystka wahadłowa, martwa rybka
+Przynęty, których nie lubi:
+boilies, pellet, chleb
+
+BOLEŃ
+Przynęty, które lubi:
+wobler powierzchniowy, błystka obrotowa
+Przynęty, których nie lubi:
+ciasto, boilies, pellet
+
+SUM
+Przynęty, które lubi:
+rosówka, filet rybny
+Przynęty, których nie lubi:
+boilies, ciasto, kukurydza
