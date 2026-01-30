@@ -1,89 +1,169 @@
-KARP
-Przynęty, które lubi:
-kukuryza, pellet, boilies, ciasto wędkarskie
-Przynęty, których nie lubi:
-gumy, woblery, błystki
+AMUR BIAŁY
 
-AMUR
-Przynęty, które lubi:
-kukuryza, pellet roślinny, ciasto wędkarskie
-Przynęty, których nie lubi:
-martwe rybki, filet rybny, boilies
-
-LESZCZ
-Przynęty, które lubi:
-czerwony robak, biały robak, kukurydza, rosówka
-Przynęty, których nie lubi:
-boilies, woblery, błystki wahadłowe
-
-KRĄP
-Przynęty, które lubi:
-ochotka, biały robak
-Przynęty, których nie lubi:
-gumy, martwe rybki, woblery
-
-PŁOĆ
-Przynęty, które lubi:
-ochotka, biały robak, ciasto wędkarskie
-Przynęty, których nie lubi:
-martwe rybki, filet rybny, boilies
-
-WZDRĘGA
-Przynęty, które lubi:
-chleb, ciasto wędkarskie
-Przynęty, których nie lubi:
-martwe rybki, woblery, błystki
-
-LIN
-Przynęty, które lubi:
-czerwony robak, rosówka, kukurydza
-Przynęty, których nie lubi:
-boilies, błystki, woblery
-
-KARAŚ
-Przynęty, które lubi:
-ciasto wędkarskie, biały robak, kukurydza
-Przynęty, których nie lubi:
-martwe rybki, filet rybny, woblery
-
-KLEŃ
-Przynęty, które lubi:
-chleb, czerwony robak, błystka obrotowa
-Przynęty, których nie lubi:
-boilies, ciasto wędkarskie, pellet
-
-JAŹ
-Przynęty, które lubi:
-biały robak, kukurydza, ciasto wędkarskie
-Przynęty, których nie lubi:
-martwe rybki, filet rybny, gumy
-
-OKOŃ
-Przynęty, które lubi:
-gumy (twistery, rippery), błystka obrotowa, małe woblery
-Przynęty, których nie lubi:
-boilies, ciasto, chleb
-
-SANDACZ
-Przynęty, które lubi:
-martwa rybka, filet rybny, gumy
-Przynęty, których nie lubi:
-boilies, ciasto, chleb
-
-SZCZUPAK
-Przynęty, które lubi:
-wobler, błystka wahadłowa, martwa rybka
-Przynęty, których nie lubi:
-boilies, pellet, chleb
+Przynęty, które lubi: kukurydza, pellet roślinny, ciasto wędkarskie
+Przynęty, których nie lubi: martwe rybki, filet rybny, gumy
 
 BOLEŃ
-Przynęty, które lubi:
-wobler powierzchniowy, błystka obrotowa
-Przynęty, których nie lubi:
-ciasto, boilies, pellet
+
+Przynęty, które lubi: błystka obrotowa, wobler powierzchniowy, spinnerbait
+Przynęty, których nie lubi: boilies, kukurydza, ciasto
+
+BRZANA
+
+Przynęty, które lubi: czerwony robak, białe robaki, rosówka
+Przynęty, których nie lubi: martwe rybki, woblery, błystki
+
+CERTA
+
+Przynęty, które lubi: biały robak, ochotka, rosówka
+Przynęty, których nie lubi: błystki, gumy, boilies
+
+GŁOWACICA
+
+Przynęty, które lubi: mucha mokra, sucha mucha, małe nimfy
+Przynęty, których nie lubi: boilies, kukurydza, pellet
+
+JAŹ
+
+Przynęty, które lubi: biały robak, kukurydza, ciasto wędkarskie
+Przynęty, których nie lubi: martwe rybki, filet rybny, gumy
+
+JELEC
+
+Przynęty, które lubi: ochotka, białe robaki, małe kawałki chleba
+Przynęty, których nie lubi: boilies, woblery, błystki wahadłowe
+
+KARAŚ
+
+Przynęty, które lubi: kukurydza, ciasto wędkarskie, biały robak
+Przynęty, których nie lubi: martwe rybki, filet rybny, woblery
+
+KARP KRÓLEWSKI (LUSTRZEŃ)
+
+Przynęty, które lubi: kukurydza, pellet, boilies
+Przynęty, których nie lubi: gumy, woblery, błystki
+
+KARP PEŁNOŁUSKI
+
+Przynęty, które lubi: kukurydza, pellet, boilies
+Przynęty, których nie lubi: gumy, woblery, błystki
+
+KIEŁB
+
+Przynęty, które lubi: czerwony robak, ochotka, biały robak
+Przynęty, których nie lubi: boilies, gumy, woblery
+
+KIEŁB KRUTKOWĄSY
+
+Przynęty, które lubi: ochotka, biały robak, drobne mięso rybne
+Przynęty, których nie lubi: boilies, woblery, błystki
+
+KLEŃ
+
+Przynęty, które lubi: czerwony robak, chleb, błystka obrotowa
+Przynęty, których nie lubi: boilies, pellet, ciasto wędkarskie
+
+KOZA
+
+Przynęty, które lubi: małe robaki, rosówki, drobna ochotka
+Przynęty, których nie lubi: kawałki filetów, boilies, błystki
+
+KRĄP
+
+Przynęty, które lubi: ochotka, biały robak
+Przynęty, których nie lubi: gumy, martwe rybki, woblery
+
+LESZCZ
+
+Przynęty, które lubi: czerwony robak, biały robak, kukurydza, rosówka
+Przynęty, których nie lubi: boilies, woblery, błystki wahadłowe
+
+LIN
+
+Przynęty, które lubi: czerwony robak, rosówka, kukurydza
+Przynęty, których nie lubi: boilies, błystki, woblery
+
+LIPIĘŃ
+
+Przynęty, które lubi: małe muchy, ochotka, nimfy
+Przynęty, których nie lubi: boilies, kukurydza, pellet
+
+MIĘTUS
+
+Przynęty, które lubi: kawałki ryby, robaki, małe błystki
+Przynęty, których nie lubi: kukurydza, boilies, chleb
+
+OKOŃ
+
+Przynęty, które lubi: gumy (twistery, rippery), błystka obrotowa, małe woblery
+Przynęty, których nie lubi: boilies, ciasto, chleb
+
+PISKORZ
+
+Przynęty, które lubi: czerwony robak, biały robak
+Przynęty, których nie lubi: woblery, błystki, pellet
+
+PŁOĆ
+
+Przynęty, które lubi: ochotka, biały robak, ciasto wędkarskie
+Przynęty, których nie lubi: martwe rybki, filet rybny, boilies
+
+PSTRĄG TĘCZOWY
+
+Przynęty, które lubi: mucha sucha, mucha mokra, małe streamery
+Przynęty, których nie lubi: boilies, kukurydza, chleb
+
+PSTRĄG POTOKOWY
+
+Przynęty, które lubi: suche muchy, nimfy, małe błystki
+Przynęty, których nie lubi: boilies, kukurydza, pellet
+
+RÓŻANKA
+
+Przynęty, które lubi: małe robaki, ochotka, biały robak
+Przynęty, których nie lubi: boilies, gumy, błystki
+
+SANDACZ
+
+Przynęty, które lubi: martwa rybka, filet rybny, gumy
+Przynęty, których nie lubi: boilies, ciasto, chleb
 
 SUM
-Przynęty, które lubi:
-rosówka, filet rybny
-Przynęty, których nie lubi:
-boilies, ciasto, kukurydza
+
+Przynęty, które lubi: rosówka, filet rybny
+Przynęty, których nie lubi: boilies, ciasto, kukurydza
+
+ŚLIZ
+
+Przynęty, które lubi: ochotka, drobne robaki
+Przynęty, których nie lubi: boilies, pellet, chleb
+
+SZCZUPAK
+
+Przynęty, które lubi: woblery, błystki wahadłowe, martwa rybka
+Przynęty, których nie lubi: boilies, pellet, chleb
+
+ŚWINKA
+
+Przynęty, które lubi: czerwony robak, biały robak, rosówka
+Przynęty, których nie lubi: boilies, woblery, błystki
+
+UKLEJA
+
+Przynęty, które lubi: ochotka, biały robak
+Przynęty, których nie lubi: boilies, gumy, woblery
+
+TOŁPYGA
+
+Przynęty, które lubi: plankton/metkowe pellet
+Przynęty, których nie lubi: boilies, filet rybny, błystki
+
+WĘGORZ
+
+Przynęty, które lubi: rosówka, kawałki rybne, robaki
+Przynęty, których nie lubi: boilies, kukurydza, chleb
+
+WZDRĘGA
+
+Przynęty, które lubi: chleb, ciasto wędkarskie
+Przynęty, których nie lubi: martwe rybki, woblery, błystki
