@@ -1,89 +1,263 @@
-KARP
-Zanęty, które lubi:
-zanęta karpiowa ciężka, zanęta kukurydziana, zanęta z dodatkiem pelletu, zanęta owocowa, zanęta proteinowa
-Zanęty, których nie lubi:
-zanęta drobnoziarnista zimowa, zanęta płociowa jasna
-
 AMUR
+
 Zanęty, które lubi:
 zanęta kukurydziana, zanęta owocowa, zanęta uniwersalna słodka
+
 Zanęty, których nie lubi:
 zanęta proteinowa, zanęta czosnkowa
 
-LESZCZ
-Zanęty, które lubi:
-zanęta leszczowa rzeczna, zanęta feederowa uniwersalna, zanęta czosnkowa, zanęta z gliną wiążącą
-Zanęty, których nie lubi:
-zanęta płociowa jasna, zanęta owocowa
+BOLEŃ
 
-KRĄP
 Zanęty, które lubi:
-zanęta płociowa jasna, zanęta drobnoziarnista zimowa
-Zanęty, których nie lubi:
-zanęta karpiowa ciężka, zanęta proteinowa
+brak
 
-PŁOĆ
-Zanęty, które lubi:
-zanęta płociowa jasna, zanęta uniwersalna słodka, zanęta drobnoziarnista zimowa
 Zanęty, których nie lubi:
-zanęta karpiowa ciężka, zanęta z dodatkiem pelletu
+wszystkie zanęty
 
-WZDRĘGA
-Zanęty, które lubi:
-zanęta płociowa jasna
-Zanęty, których nie lubi:
-zanęta leszczowa rzeczna, zanęta karpiowa ciężka
+BRZANA
 
-LIN
 Zanęty, które lubi:
-zanęta linowo-karasiowa, zanęta naturalna (ziemista), zanęta proteinowa
-Zanęty, których nie lubi:
-zanęta czosnkowa, zanęta owocowa
+zanęta rzeczna ciężka, zanęta z gliną wiążącą, zanęta naturalna
 
-KARAŚ
-Zanęty, które lubi:
-zanęta linowo-karasiowa, zanęta uniwersalna słodka, zanęta czosnkowa
 Zanęty, których nie lubi:
-zanęta proteinowa, zanęta z dodatkiem pelletu
+zanęta owocowa, zanęta płociowa jasna
 
-KLEŃ
+CERTA
+
 Zanęty, które lubi:
-zanęta rzeczna ciężka (ciemna), zanęta naturalna (ziemista)
+zanęta drobnoziarnista rzeczna, zanęta naturalna (ciemna)
+
 Zanęty, których nie lubi:
-zanęta owocowa, zanęta czosnkowa
+zanęta karpiowa ciężka, zanęta owocowa
+
+GŁOWACICA
+
+Zanęty, które lubi:
+brak
+
+Zanęty, których nie lubi:
+wszystkie zanęty
 
 JAŹ
+
 Zanęty, które lubi:
 zanęta rzeczna ciężka (ciemna), zanęta naturalna (ziemista)
+
 Zanęty, których nie lubi:
 zanęta owocowa, zanęta proteinowa
 
-OKOŃ
-Zanęty, które lubi:
-brak (nie stosuje się zanęt)
-Zanęty, których nie lubi:
-wszystkie zanęty gruntowe
+JELEC
 
-SANDACZ
 Zanęty, które lubi:
-brak (zanęta zbędna, ewentualnie punktowa proteinowa)
+zanęta drobnoziarnista zimowa, zanęta naturalna (ziemista)
+
+Zanęty, których nie lubi:
+zanęta karpiowa ciężka, zanęta proteinowa
+
+KARAŚ
+
+Zanęty, które lubi:
+zanęta linowo-karasiowa, zanęta uniwersalna słodka, zanęta czosnkowa
+
+Zanęty, których nie lubi:
+zanęta proteinowa, zanęta z dodatkiem pelletu
+
+KARP
+
+Zanęty, które lubi:
+zanęta karpiowa ciężka, zanęta kukurydziana, zanęta z dodatkiem pelletu, zanęta owocowa, zanęta proteinowa
+
+Zanęty, których nie lubi:
+zanęta drobnoziarnista zimowa, zanęta płociowa jasna
+
+KIEŁB
+
+Zanęty, które lubi:
+zanęta drobnoziarnista zimowa, zanęta naturalna (ziemista)
+
+Zanęty, których nie lubi:
+zanęta karpiowa ciężka, zanęta owocowa
+
+KIEŁB KRÓTKOWĄSY
+
+Zanęty, które lubi:
+zanęta drobnoziarnista zimowa, zanęta naturalna
+
+Zanęty, których nie lubi:
+zanęta proteinowa, zanęta kukurydziana
+
+KLEŃ
+
+Zanęty, które lubi:
+zanęta rzeczna ciężka (ciemna), zanęta naturalna (ziemista)
+
+Zanęty, których nie lubi:
+zanęta owocowa, zanęta czosnkowa
+
+KOZA
+
+Zanęty, które lubi:
+zanęta naturalna (ziemista), zanęta drobnoziarnista
+
+Zanęty, których nie lubi:
+zanęta owocowa, zanęta karpiowa ciężka
+
+KRĄP
+
+Zanęty, które lubi:
+zanęta płociowa jasna, zanęta drobnoziarnista zimowa
+
+Zanęty, których nie lubi:
+zanęta karpiowa ciężka, zanęta proteinowa
+
+LESZCZ
+
+Zanęty, które lubi:
+zanęta leszczowa rzeczna, zanęta feederowa uniwersalna, zanęta czosnkowa, zanęta z gliną wiążącą
+
 Zanęty, których nie lubi:
 zanęta płociowa jasna, zanęta owocowa
 
-SZCZUPAK
+LIN
+
+Zanęty, które lubi:
+zanęta linowo-karasiowa, zanęta naturalna (ziemista), zanęta proteinowa
+
+Zanęty, których nie lubi:
+zanęta czosnkowa, zanęta owocowa
+
+LIPIEŃ
+
 Zanęty, które lubi:
 brak
+
 Zanęty, których nie lubi:
 wszystkie zanęty
 
-BOLEŃ
+MIĘTUS
+
+Zanęty, które lubi:
+zanęta proteinowa (punktowo, ciężka)
+
+Zanęty, których nie lubi:
+zanęta słodka, zanęta płociowa jasna
+
+OKOŃ
+
 Zanęty, które lubi:
 brak
+
+Zanęty, których nie lubi:
+wszystkie zanęty gruntowe
+
+PISKORZ
+
+Zanęty, które lubi:
+zanęta naturalna (ziemista), zanęta drobnoziarnista
+
+Zanęty, których nie lubi:
+zanęta proteinowa, zanęta kukurydziana
+
+PŁOĆ
+
+Zanęty, które lubi:
+zanęta płociowa jasna, zanęta uniwersalna słodka, zanęta drobnoziarnista zimowa
+
+Zanęty, których nie lubi:
+zanęta karpiowa ciężka, zanęta z dodatkiem pelletu
+
+PSTRĄG POTOKOWY
+
+Zanęty, które lubi:
+brak
+
 Zanęty, których nie lubi:
 wszystkie zanęty
+
+PSTRĄG TĘCZOWY
+
+Zanęty, które lubi:
+brak
+
+Zanęty, których nie lubi:
+wszystkie zanęty
+
+RÓŻANKA
+
+Zanęty, które lubi:
+zanęta drobnoziarnista zimowa, zanęta naturalna
+
+Zanęty, których nie lubi:
+zanęta karpiowa ciężka, zanęta proteinowa
+
+SANDACZ
+
+Zanęty, które lubi:
+brak (ewentualnie punktowa proteinowa)
+
+Zanęty, których nie lubi:
+zanęta płociowa jasna, zanęta owocowa
 
 SUM
+
 Zanęty, które lubi:
 zanęta proteinowa (stosowana punktowo)
+
 Zanęty, których nie lubi:
 zanęta płociowa jasna, zanęta drobnoziarnista zimowa
+
+SZCZUPAK
+
+Zanęty, które lubi:
+brak
+
+Zanęty, których nie lubi:
+wszystkie zanęty
+
+ŚLIZ
+
+Zanęty, które lubi:
+zanęta naturalna (ziemista), zanęta drobnoziarnista
+
+Zanęty, których nie lubi:
+zanęta owocowa, zanęta proteinowa
+
+ŚWINKA
+
+Zanęty, które lubi:
+zanęta rzeczna ciężka, zanęta z gliną wiążącą
+
+Zanęty, których nie lubi:
+zanęta owocowa, zanęta słodka
+
+TOŁPYGA
+
+Zanęty, które lubi:
+zanęta planktonowa, zanęta bardzo drobna
+
+Zanęty, których nie lubi:
+zanęta proteinowa, zanęta mięsna
+
+UKLEJA
+
+Zanęty, które lubi:
+zanęta płociowa jasna, zanęta drobnoziarnista
+
+Zanęty, których nie lubi:
+zanęta karpiowa ciężka, zanęta proteinowa
+
+WĘGORZ
+
+Zanęty, które lubi:
+zanęta proteinowa, zanęta naturalna (ciemna)
+
+Zanęty, których nie lubi:
+zanęta owocowa, zanęta słodka
+
+WZDRĘGA
+
+Zanęty, które lubi:
+zanęta płociowa jasna
+
+Zanęty, których nie lubi:
+zanęta leszczowa rzeczna, zanęta karpiowa ciężka
