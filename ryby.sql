@@ -1,11 +1,11 @@
 -- phpMyAdmin SQL Dump
--- version 5.2.1
+-- version 5.2.2deb2
 -- https://www.phpmyadmin.net/
 --
--- Host: 127.0.0.1
--- Generation Time: Mar 01, 2026 at 10:58 PM
--- Wersja serwera: 10.4.32-MariaDB
--- Wersja PHP: 8.2.12
+-- Host: localhost:3306
+-- Generation Time: Apr 23, 2026 at 08:32 AM
+-- Wersja serwera: 8.4.8-0ubuntu0.25.10.1
+-- Wersja PHP: 8.4.11
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 START TRANSACTION;
@@ -18,7 +18,7 @@ SET time_zone = "+00:00";
 /*!40101 SET NAMES utf8mb4 */;
 
 --
--- Database: `ryby`
+-- Baza danych: `ryby`
 --
 
 -- --------------------------------------------------------
@@ -28,40 +28,32 @@ SET time_zone = "+00:00";
 --
 
 CREATE TABLE `przynety` (
-  `id` int(11) NOT NULL,
-  `nazwa` varchar(128) NOT NULL,
-  `opis` varchar(1024) NOT NULL,
-  `zdjecie` varchar(255) NOT NULL
+  `id` int NOT NULL,
+  `nazwa` varchar(128) COLLATE utf8mb4_polish_ci NOT NULL,
+  `opis` varchar(1024) COLLATE utf8mb4_polish_ci NOT NULL,
+  `zdjecie` varchar(255) COLLATE utf8mb4_polish_ci NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_polish_ci;
 
 --
--- Dumping data for table `przynety`
+-- Zrzut danych tabeli `przynety`
 --
 
 INSERT INTO `przynety` (`id`, `nazwa`, `opis`, `zdjecie`) VALUES
-(1, 'Biały robak', 'Najbardziej uniwersalna przynęta wędkarska. Dzięki ruchowi i zapachowi skutecznie wabi płoć, leszcza i karasia. Może być stosowany pojedynczo lub w zestawie kilku sztuk.', 'Biały robak.jpg'),
+(1, 'Biały robak', 'Najbardziej uniwersalna przynęta wędkarska. Dzięki ruchowi i zapachowi skutecznie wabi płoć, leszcza i karasia.', 'Biały robak.jpg'),
 (2, 'Boilies', 'Kulki proteinowe stosowane głównie przy połowie dużych karpi i amurów. Bardzo selektywne.', 'Boilies.jpg'),
 (3, 'Błystka obrotowa', 'Metalowa przynęta generująca drgania i błysk. Skuteczna na okonia i klenia.', 'Błystka obrotowa.jpg'),
 (4, 'Błystka wahadłowa', 'Cięższa błystka do połowu większych drapieżników, takich jak szczupak i sandacz.', 'Błystka wahadłowa.jpg'),
 (5, 'Chleb', 'Naturalna przynęta unosząca się w toni lub przy powierzchni. Szczególnie skuteczna na wzdręgi i karasie.', 'Chleb.jpg'),
-(6, 'Ciasto wędkarskie', 'Miękka przynęta o różnych aromatach, idealna na karasie i płocie. Dobrze pracuje na spławiku.', 'Ciasto wędkarskie.jpg'),
-(7, 'Czerwony robak', 'Przynęta o intensywnym kolorze i zapachu, szczególnie skuteczna na leszcze, liny i karasie. Działa dobrze na dnie i w wolno płynącej wodzie.', 'Czerwony robak.jpg'),
-(8, 'Filet rybny', 'Naturalna, intensywnie pachnąca przynęta na sandacza i suma. Bardzo skuteczna przy połowie gruntowej.', 'Filet rybny.jpg'),
+(6, 'Ciasto wędkarskie', 'Miękka przynęta o różnych aromatach, idealna na karasie i płocie.', 'Ciasto wędkarskie.jpg'),
+(7, 'Czerwony robak', 'Przynęta o intensywnym kolorze i zapachu, szczególnie skuteczna na leszcze, liny i karasie.', 'Czerwony robak.jpg'),
+(8, 'Filet rybny', 'Naturalna, intensywnie pachnąca przynęta na sandacza i suma.', 'Filet rybny.jpg'),
 (9, 'Gumy (twistery, rippery)', 'Sztuczne przynęty imitujące rybki lub larwy. Bardzo skuteczne na okonia i sandacza.', 'Gumy (twistery, rippery).jpg'),
-(10, 'Kukurydza', 'Słodka i dobrze widoczna przynęta, bardzo odporna na drobnicę. Najczęściej stosowana na karpia, amura i większe leszcze.', 'Kukurydza.jpg'),
-(11, 'Martwa rybka', 'Naturalna przynęta drapieżna, używana do połowu sandacza i szczupaka. Działa dzięki zapachowi i wyglądowi.', 'Martwa rybka.jpg'),
-(12, 'Ochotka', 'Delikatna, naturalna przynęta używana głównie do połowu płoci i leszczy. Sprawdza się w trudnych warunkach i przy słabym żerowaniu ryb.', 'Ochotka.jpg'),
+(10, 'Kukurydza', 'Słodka i dobrze widoczna przynęta, bardzo odporna na drobnicę.', 'Kukurydza.jpg'),
+(11, 'Martwa rybka', 'Naturalna przynęta drapieżna, używana do połowu sandacza i szczupaka.', 'Martwa rybka.jpg'),
+(12, 'Ochotka', 'Delikatna, naturalna przynęta używana głównie do połowu płoci i leszczy.', 'Ochotka.jpg'),
 (13, 'Pellet', 'Twarda, selektywna przynęta o wysokiej wartości odżywczej. Skuteczna na karpie i leszcze.', 'Pellet.jpg'),
-(14, 'Rosówka', 'Duży robak o silnym zapachu, skuteczny na liny, leszcze oraz drapieżniki, takie jak sandacz.', 'Rosówka.jpg'),
-(15, 'Wobler', 'Twarda przynęta imitująca żywą rybkę. Stosowana na szczupaka i bolenia.', 'Wobler.jpg'),
-(16, 'Sucha mucha', 'Sztuczna mucha imitująca owada na powierzchni wody', 'sucha_mucha.jpg'),
-(17, 'Mokra mucha', 'Mucha pracująca pod powierzchnią wody', 'mokra_mucha.jpg'),
-(18, 'Nimfa', 'Imitacja larwy owada wodnego', 'nimfa.jpg'),
-(19, 'Małe nimfy', 'Drobne nimfy stosowane w metodzie muchowej', 'male_nimfy.jpg'),
-(20, 'Streamer', 'Sztuczna przynęta imitująca małą rybkę', 'streamer.jpg'),
-(21, 'Spinnerbait', 'Obrotowa przynęta drapieżna', 'spinnerbait.jpg'),
-(22, 'Plankton', 'Przynęta stosowana przy połowie tołpygi', 'plankton.jpg'),
-(23, 'Drobne mięso rybne', 'Małe kawałki ryby', 'mieso_rybne.jpg');
+(14, 'Rosówka', 'Duży robak o silnym zapachu, skuteczny na liny, leszcze oraz drapieżniki.', 'Rosówka.jpg'),
+(15, 'Wobler', 'Twarda przynęta imitująca żywą rybkę. Stosowana na szczupaka i bolenia.', 'Wobler.jpg');
 
 -- --------------------------------------------------------
 
@@ -70,14 +62,14 @@ INSERT INTO `przynety` (`id`, `nazwa`, `opis`, `zdjecie`) VALUES
 --
 
 CREATE TABLE `rybki` (
-  `id` int(11) NOT NULL,
-  `nazwa` varchar(255) NOT NULL,
-  `opis` text NOT NULL,
-  `zdjecie` varchar(255) NOT NULL
+  `id` int NOT NULL,
+  `nazwa` varchar(255) COLLATE utf8mb4_polish_ci NOT NULL,
+  `opis` text COLLATE utf8mb4_polish_ci NOT NULL,
+  `zdjecie` varchar(255) COLLATE utf8mb4_polish_ci NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_polish_ci;
 
 --
--- Dumping data for table `rybki`
+-- Zrzut danych tabeli `rybki`
 --
 
 INSERT INTO `rybki` (`id`, `nazwa`, `opis`, `zdjecie`) VALUES
@@ -111,13 +103,13 @@ INSERT INTO `rybki` (`id`, `nazwa`, `opis`, `zdjecie`) VALUES
 --
 
 CREATE TABLE `ryby_przynety` (
-  `id` int(11) NOT NULL,
-  `rybka_id` int(11) NOT NULL,
-  `przyneta_id` int(11) NOT NULL
+  `id` int NOT NULL,
+  `rybka_id` int NOT NULL,
+  `przyneta_id` int NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_polish_ci;
 
 --
--- Dumping data for table `ryby_przynety`
+-- Zrzut danych tabeli `ryby_przynety`
 --
 
 INSERT INTO `ryby_przynety` (`id`, `rybka_id`, `przyneta_id`) VALUES
@@ -127,56 +119,60 @@ INSERT INTO `ryby_przynety` (`id`, `rybka_id`, `przyneta_id`) VALUES
 (4, 2, 4),
 (5, 2, 11),
 (6, 3, 12),
-(7, 3, 7),
+(7, 3, 1),
 (8, 4, 7),
 (9, 4, 1),
 (10, 4, 14),
-(11, 5, 13),
-(12, 6, 12),
-(13, 6, 1),
-(14, 7, 14),
-(15, 7, 8),
-(16, 7, 7),
-(17, 8, 5),
-(18, 8, 6),
-(19, 9, 10),
-(20, 9, 13),
-(21, 9, 6),
-(22, 10, 3),
-(23, 10, 15),
-(24, 11, 7),
-(25, 11, 1),
-(26, 11, 14),
-(27, 12, 1),
-(28, 12, 12),
-(29, 12, 14),
-(30, 13, 3),
-(31, 14, 1),
-(32, 14, 10),
-(33, 14, 6),
-(34, 15, 10),
-(35, 15, 6),
-(36, 15, 1),
-(37, 16, 12),
-(38, 16, 1),
-(39, 16, 5),
-(40, 17, 10),
-(41, 17, 13),
-(42, 17, 2),
-(43, 18, 10),
-(44, 18, 13),
-(45, 18, 2),
-(46, 19, 7),
-(47, 19, 12),
-(48, 19, 1),
-(49, 20, 7),
-(50, 20, 5),
-(51, 20, 3),
-(52, 21, 7),
-(53, 21, 14),
-(54, 21, 12),
-(55, 22, 12),
-(56, 22, 1);
+(11, 5, 22),
+(12, 5, 13),
+(13, 6, 12),
+(14, 6, 1),
+(15, 7, 14),
+(16, 7, 23),
+(17, 7, 7),
+(18, 8, 5),
+(19, 8, 6),
+(20, 9, 10),
+(21, 9, 13),
+(22, 9, 6),
+(23, 10, 3),
+(24, 10, 15),
+(25, 10, 21),
+(26, 11, 7),
+(27, 11, 1),
+(28, 11, 14),
+(29, 12, 1),
+(30, 12, 12),
+(31, 12, 14),
+(32, 13, 17),
+(33, 13, 16),
+(34, 13, 19),
+(35, 14, 1),
+(36, 14, 10),
+(37, 14, 6),
+(38, 15, 10),
+(39, 15, 6),
+(40, 15, 1),
+(41, 16, 12),
+(42, 16, 1),
+(43, 16, 5),
+(44, 17, 10),
+(45, 17, 13),
+(46, 17, 2),
+(47, 18, 10),
+(48, 18, 13),
+(49, 18, 2),
+(50, 19, 7),
+(51, 19, 12),
+(52, 19, 1),
+(53, 20, 7),
+(54, 20, 5),
+(55, 20, 3),
+(56, 21, 7),
+(57, 21, 14),
+(58, 21, 12),
+(59, 22, 12),
+(60, 22, 1);
 
 -- --------------------------------------------------------
 
@@ -185,10 +181,60 @@ INSERT INTO `ryby_przynety` (`id`, `rybka_id`, `przyneta_id`) VALUES
 --
 
 CREATE TABLE `ryby_zanety` (
-  `id` int(11) NOT NULL,
-  `rybka_id` int(11) NOT NULL,
-  `zaneta_id` int(11) NOT NULL
+  `id` int NOT NULL,
+  `rybka_id` int NOT NULL,
+  `zaneta_id` int NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_polish_ci;
+
+--
+-- Zrzut danych tabeli `ryby_zanety`
+--
+
+INSERT INTO `ryby_zanety` (`id`, `rybka_id`, `zaneta_id`) VALUES
+(1, 1, 9),
+(2, 3, 7),
+(3, 3, 15),
+(4, 4, 11),
+(5, 4, 14),
+(6, 5, 15),
+(7, 6, 10),
+(8, 6, 15),
+(9, 7, 9),
+(10, 7, 11),
+(11, 8, 10),
+(12, 9, 4),
+(13, 9, 8),
+(14, 9, 12),
+(15, 11, 11),
+(16, 11, 14),
+(17, 11, 7),
+(18, 12, 11),
+(19, 12, 7),
+(20, 14, 11),
+(21, 14, 7),
+(22, 15, 6),
+(23, 15, 12),
+(24, 15, 1),
+(25, 16, 15),
+(26, 16, 7),
+(27, 17, 3),
+(28, 17, 4),
+(29, 17, 13),
+(30, 17, 8),
+(31, 17, 9),
+(32, 18, 3),
+(33, 18, 4),
+(34, 18, 13),
+(35, 18, 8),
+(36, 18, 9),
+(37, 19, 15),
+(38, 19, 7),
+(39, 20, 11),
+(40, 20, 7),
+(41, 21, 7),
+(42, 21, 15),
+(43, 22, 10),
+(44, 22, 15);
 
 -- --------------------------------------------------------
 
@@ -197,11 +243,32 @@ CREATE TABLE `ryby_zanety` (
 --
 
 CREATE TABLE `zanety` (
-  `id` int(11) NOT NULL,
-  `nazwa` varchar(255) NOT NULL,
-  `opis` text NOT NULL,
-  `zdjecie` varchar(255) NOT NULL
+  `id` int NOT NULL,
+  `nazwa` varchar(255) COLLATE utf8mb4_polish_ci NOT NULL,
+  `opis` text COLLATE utf8mb4_polish_ci NOT NULL,
+  `zdjecie` varchar(255) COLLATE utf8mb4_polish_ci NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_polish_ci;
+
+--
+-- Zrzut danych tabeli `zanety`
+--
+
+INSERT INTO `zanety` (`id`, `nazwa`, `opis`, `zdjecie`) VALUES
+(1, 'Zanęta czosnkowa', 'Intensywnie pachnąca zanęta, szczególnie skuteczna na leszcze i karpie w chłodniejsze dni.', 'Zanęta czosnkowa.jpg'),
+(2, 'Zanęta feederowa uniwersalna', 'Mieszanka o drobnej frakcji, idealna do koszyczka zanętowego. Przyciąga większość ryb spokojnego żeru.', 'Zanęta feederowa uniwersalna.png'),
+(3, 'Zanęta karpiowa ciężka', 'Gruba frakcja z dużą ilością ziaren, zaprojektowana by utrzymać duże ryby w łowisku.', 'Zanęta karpiowa ciężka.png'),
+(4, 'Zanęta kukurydziana', 'Słodka, żółta zanęta o silnym aromacie kukurydzy. Uwielbiana przez amury i karpie.', 'Zanęta kukurydziana.jpg'),
+(5, 'Zanęta leszczowa rzeczna', 'Ciężka i kleista zanęta, która nie zostaje natychmiast wymyta przez nurt rzeki.', 'Zanęta leszczowa rzeczna.png'),
+(6, 'Zanęta linowo-karasiowa', 'Ciemna zanęta o zapachu miodu lub piernika, idealna na muliste dno.', 'Zanęta linowo-karasiowa.png'),
+(7, 'Zanęta naturalna (ziemista)', 'Dyskretna mieszanka o barwie zbliżonej do dna, doskonała na płocie w czystej wodzie.', 'Zanęta naturalna (ziemista).png'),
+(8, 'Zanęta owocowa', 'Słodka mieszanka o zapachu truskawki lub tutti-frutti. Skuteczna w ciepłych miesiącach.', 'Zanęta owocowa.png'),
+(9, 'Zanęta proteinowa', 'Bogata w białko mieszanka, wspomagająca nęcenie dużych okazów ryb karpiowatych.', 'Zanęta proteinowa.jpg'),
+(10, 'Zanęta płociowa jasna', 'Lekka zanęta pracująca w toni, tworząca atrakcyjną chmurę dla stad płoci.', 'Zanęta płociowa jasna.png'),
+(11, 'Zanęta rzeczna ciężka (ciemna)', 'Bardzo mocno klejąca, przeznaczona na głębokie uciągi rzeczne.', 'Zanęta rzeczna ciężka (ciemna).png'),
+(12, 'Zanęta uniwersalna słodka', 'Klasyczna baza zanętowa, którą można dowolnie modyfikować dodatkami.', 'Zanęta uniwersalna słodka.png'),
+(13, 'Zanęta z dodatkiem pelletu', 'Mieszanka zawierająca frakcje pelletu, które długo rozpuszczają się w wodzie.', 'Zanęta z dodatkiem pelletu.png'),
+(14, 'Zanęta z gliną', 'Mieszanka dociążona gliną, idealna do precyzyjnego nęcenia punktowego.', 'Zanęta z gliną.jpg'),
+(15, 'Zanęta zimowa drobnoziarnista', 'Uboga w składniki odżywcze, by nie nasycić ryb przy słabym żerowaniu.', 'Zanęta zimowa drobnoziarnista.png');
 
 --
 -- Indeksy dla zrzutów tabel
@@ -238,38 +305,38 @@ ALTER TABLE `zanety`
   ADD PRIMARY KEY (`id`);
 
 --
--- AUTO_INCREMENT for dumped tables
+-- AUTO_INCREMENT dla zrzuconych tabel
 --
 
 --
--- AUTO_INCREMENT for table `przynety`
+-- AUTO_INCREMENT dla tabeli `przynety`
 --
 ALTER TABLE `przynety`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=24;
+  MODIFY `id` int NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=16;
 
 --
--- AUTO_INCREMENT for table `rybki`
+-- AUTO_INCREMENT dla tabeli `rybki`
 --
 ALTER TABLE `rybki`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=23;
+  MODIFY `id` int NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=23;
 
 --
--- AUTO_INCREMENT for table `ryby_przynety`
+-- AUTO_INCREMENT dla tabeli `ryby_przynety`
 --
 ALTER TABLE `ryby_przynety`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=57;
+  MODIFY `id` int NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=61;
 
 --
--- AUTO_INCREMENT for table `ryby_zanety`
+-- AUTO_INCREMENT dla tabeli `ryby_zanety`
 --
 ALTER TABLE `ryby_zanety`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
+  MODIFY `id` int NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=45;
 
 --
--- AUTO_INCREMENT for table `zanety`
+-- AUTO_INCREMENT dla tabeli `zanety`
 --
 ALTER TABLE `zanety`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
+  MODIFY `id` int NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=16;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
