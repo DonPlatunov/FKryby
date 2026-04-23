@@ -65,6 +65,13 @@ $zanety = mysqli_fetch_all(mysqli_query($conn, "SELECT id, nazwa FROM zanety ORD
           </div>
 
         </div>
+        <div class="accordion-item mb-2">
+    <h2 class="accordion-header">
+        <a href="mapa.php" class="btn btn-success w-100 text-start" style="border-radius: 0;">
+            📍 Moje Miejscówki
+        </a>
+    </h2>
+</div>
       </nav>
 
       <main class="col-md-9 col-lg-10 p-4" id="main-content">
